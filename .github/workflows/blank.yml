@@ -27,3 +27,4 @@ jobs:
         run: |
           echo "trigger......"
           env
+          cat $GITHUB_EVENT_PATH
