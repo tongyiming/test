@@ -30,4 +30,4 @@ jobs:
           cat $GITHUB_EVENT_PATH
           echo "============"
           git branch | cat
-          git diff --name-status origin/main | awk '{print $2}'
+          git diff --name-status origin/main HEAD | awk '{print $2}'
