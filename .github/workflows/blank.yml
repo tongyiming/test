@@ -31,4 +31,4 @@ jobs:
           echo "============"
           git fetch origin main
           git branch | cat
-          git diff --name-status main | awk '{print $2}'
+          git diff --name-status origin/main | awk '{print $2}'
