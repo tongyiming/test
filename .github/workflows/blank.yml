@@ -28,3 +28,5 @@ jobs:
           echo "trigger......"
           env
           cat $GITHUB_EVENT_PATH
+          echo "============"
+          ls $GITHUB_WORKSPACE
