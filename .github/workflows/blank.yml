@@ -29,4 +29,5 @@ jobs:
           env
           cat $GITHUB_EVENT_PATH
           echo "============"
+          git branch | cat
           git diff --name-status main | awk '{print $2}'
