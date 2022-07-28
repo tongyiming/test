@@ -27,6 +27,8 @@ jobs:
         run: |
           echo "trigger......"
           echo ${{ secrets.ONE }}
+          echo "two........"
+          echo ${{ secrets.TWO }}
           env
           cat $GITHUB_EVENT_PATH
           echo "============"
