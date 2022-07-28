@@ -26,6 +26,7 @@ jobs:
       - name: MR info
         run: |
           echo "trigger......"
+          echo ${{ secrets.ONE }}
           env
           cat $GITHUB_EVENT_PATH
           echo "============"
